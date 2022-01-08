@@ -1,8 +1,0 @@
-name: My first github actions
-on: [push] # on is like when we want to perfom action on push, or pull-requrest or deployment_status
-jobs: # job is what it is supposed to do in single workflow, it could be multiple job within single workflow
-  print-hello-world:
-    runs-on: ubantu-latest
-    steps:
-      - run: echo "hello world!!"
-      - run: echo "Hello this is first action for cicd"
