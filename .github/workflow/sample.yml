@@ -1,0 +1,26 @@
+# thsi is comment
+person: # person is a object
+  name: vishal
+  age: 21
+  designation: Front-end Developer
+  myarr: # traditional ways was [1,2,3,4,5] but now we can write by using dash (-)
+    - key1: value1
+      keyrandom: valuerandom
+    - key2: value2
+      keyrandom2: valuerandom2
+  favFruits: # another array
+    - mango
+    - apple
+    - papaya
+    - grapes
+    - pears
+  abotme: | # use pipe (\) for multiline strings,
+    i am vishal,
+    and i'm 23 years old.
+    currently i am working as a software developer at edneed
+    i love to play cricket,
+    watching movies,
+    travelling to the hill stations.
+# objects end here.
+name: vishal ranjan
+focus: learning github actions cicd
