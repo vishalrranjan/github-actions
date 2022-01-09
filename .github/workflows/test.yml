@@ -6,6 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: tree
-  Print-name: runs-on: ubuntu-latest
+  Print-name:
+    runs-on: ubuntu-latest
     steps:
       - run: echo "hello new world!! I'm Vishal :)"
