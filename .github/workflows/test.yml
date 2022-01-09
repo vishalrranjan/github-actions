@@ -6,3 +6,8 @@ jobs:
     steps:
       - run: echo "hello world!!"
       - run: echo "Hello this is first action for cicd"
+  print-hello-world2:
+    runs-on: ubantu-latest
+    steps:
+      - run: echo "hello new world!!"
+      - run: echo "Hello this is first action for cicd"
