@@ -1,13 +1,13 @@
 import React from "react";
+import DebounceConcept from "./DebounceConcept";
+import WithoutDebounceHandling from "./WithoutDebounceHandling";
 
 const Home = () => {
   return (
-    <div>
-      <input type="text" placeholder="Enter Name" />
-      <br />
-      <div>
-        <p>text will be print here</p>
-      </div>
+    <div className="divider">
+      <WithoutDebounceHandling />
+      <span className="divider-line"></span>
+      <DebounceConcept />
     </div>
   );
 };
