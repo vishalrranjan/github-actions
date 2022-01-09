@@ -26,4 +26,20 @@ name: vishal ranjan
 focus: learning github actions cicd
 
 
+yml is same like json e.g. -
 
+json formate :
+{
+  "name": "my first github actions",
+  "on": ['push'],
+  "jobs":{
+    "build-app":{
+      "runs-on": "ubuntu-latest",
+      "steps": [{"uses": "actions/checkout@v2"}, {"run": "treee"}]
+    },
+    "print-name":{
+      "runs-on": "ubuntu-latest",
+      "steps": [{"run": "echo hello new world!! I'm Vishal :)"}]
+    }
+  }
+}
