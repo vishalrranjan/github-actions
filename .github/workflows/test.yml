@@ -1,4 +1,4 @@
-name: My first github actions
+name: github actions
 on: [push]
 jobs:
   build-app:
