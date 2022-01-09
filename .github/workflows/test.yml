@@ -9,7 +9,7 @@ jobs:
         with:
           node-version: "14.17.0"
       - name: Install node_modules
-        run: yarn
+        run: npm i
       - name: build the project
         run: npm run build
       - name: Setup Finish
