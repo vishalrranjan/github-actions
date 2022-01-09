@@ -1,13 +1,11 @@
 name: My first github actions
 on: [push]
 jobs:
-  print-hello-world:
+  build-app:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello world!!"
-      - run: echo "Hello this is first action for cicd"
-  print-hello-world2:
-    runs-on: ubantu-latest
+      - uses: actions/checkout@v2
+      - run: tree
+  Print-name: runs-on: ubuntu-latest
     steps:
-      - run: echo "hello new world!!"
-      - run: echo "Hello this is first action for cicd"
+      - run: echo "hello new world!! I'm Vishal :)"
