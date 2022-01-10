@@ -16,4 +16,6 @@ jobs:
         run: echo "Successfully Setup First Project."
       - run: tree
   print-name:
-    run: echo "Hello i'm vishal."
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello i'm Vishal."
