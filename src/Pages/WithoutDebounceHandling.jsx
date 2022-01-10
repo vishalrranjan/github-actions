@@ -9,6 +9,7 @@ const WithoutDebounceHandling = () => {
   };
   return (
     <>
+      <h3>Normal</h3>
       <InputHandling string={string} handleText={handleText} />
     </>
   );
